@@ -41,7 +41,7 @@ import shutil
 
 # File root for your media, no trailing slash. Working examples with correct
 # escaping for Windows: "c:\\python\\test", "\\\\192.168.1.30\\test\\Forensic Files"
-showroot = "\\\\192.168.1.30\\g\\media2\\Mixed - HomeLifestyle\\Shows\\House Hunters International - By Region"
+showroot = ""
 
 # Options below are strings or regex patterns. fileFilters are used to exclude.
 # Use case example: For 2015 Home Videos - The Wedding (480p).nfo: The
@@ -49,10 +49,10 @@ showroot = "\\\\192.168.1.30\\g\\media2\\Mixed - HomeLifestyle\\Shows\\House Hun
 # exclude those fragments, to create the title '2015 The Wedding'.
 # You can also use appendTerm to add a term on the end, eg, ' (Home Video)'
 # These examples together would create a display title of 2015 The Wedding (Home Video).
-fileFilter1 = '^[a-zA-z() ]+[sS][0-9]+[eE][0-9]+ '
+fileFilter1 = ''
 fileFilter2 = ''
 fileFilter3 = ''
-appendTerm = ' (House Hunters International)'
+appendTerm = ''
 # More convoluted edits (such as swapping parts around) would be possible with some
 # edits to the function makeNFOTrimList. The variable newname becomes the new filename.
 
