@@ -97,12 +97,12 @@ from datetime import datetime
 #
 # File refs with escaping for Windows: "c:\\test data", "\\\\192.168.1.30\\my show"
 
-infoDir = "D:\\temp\\"
-resumeFile = "D:\\temp\\testresume.csv"
+infoDir = ""
+resumeFile = ""
 manualSave = 0
-manualResume = 1
-showroot = "D:\\temp\\sbtest"
-searchMethod = 2
+manualResume = 0
+showroot = ""
+searchMethod = 1
 
 # Options below are strings or regex patterns.
 # fileFilters are EXCLUDED and are used with option 1 above.
@@ -133,7 +133,7 @@ episodePattern = '[Ee][0-9]+'
 # for inclusion in the amended NFO. Mark absent columns as 'NA' (with quotes).
 # Your csv file must have numerical column headings that match the numbers entered here.
 
-dataFile = "D:\\temp\\SantaBarbara.csv"
+dataFile = ""
 seasonColumn = 0
 episodeColumn = 1
 titleColumn = 2
