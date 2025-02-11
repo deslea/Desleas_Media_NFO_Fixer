@@ -1,4 +1,4 @@
-# Deslea's NFO TWeaker Tools
+# Deslea's NFO Tweaker Tools
 
 A collection of Python tools to tweak the details shown in a media server interface, by tweaking NFO metadata, without editing underlying media files.
 
